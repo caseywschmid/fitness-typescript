@@ -10,4 +10,6 @@ export default defineConfig({
   resolve: {
     alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
   },
+  // Need to set this up for Github Pages
+  base: '/fitness-typescript/',
 });
